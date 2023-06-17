@@ -1,4 +1,11 @@
 {
-  "recommendations": ["astro-build.astro-vscode"],
-  "unwantedRecommendations": []
+	"recommendations": [
+		"astro-build.astro-vscode",
+		"vivaxy.vscode-conventional-commits",
+		"usernamehw.errorlens",
+		"esbenp.prettier-vscode",
+		"yoavbls.pretty-ts-errors",
+		"syler.sass-indented"
+	],
+	"unwantedRecommendations": []
 }

@@ -1,15 +1,55 @@
 {
-  "name": "astro-blog",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^2.6.4"
-  }
+	"name": "astro-blog",
+	"description": "A simple blog built with Astro",
+	"author": "Santiago Hernandez, Ricardo Mendez",
+	"license": "MIT",
+	"readme": "README.md",
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"man": [
+		"README.md"
+	],
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"//": "DEV SCRIPTS",
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"//": "LINTING SCRIPTS",
+		"eslint": "eslint --ext .ts,.tsx .",
+		"eslint:fix": "eslint --fix --ext .ts,.tsx .",
+		"prepare": "husky install",
+		"format": "prettier --write .",
+		"//": "ASTRO SCRIPTS",
+		"add": "astro add",
+		"remove": "astro remove",
+		"upgrade": "astro upgrade",
+		"outdated": "astro outdated",
+		"list": "astro list",
+		"//": "UTILITY SCRIPTS",
+		"uninstall": "rm -rf node_modules && rm -rf package-lock.json && npm cache clean --force",
+		"reinstall:npm": "npm run uninstall && npm i",
+		"reinstall:yarn": "npm run uninstall && yarn",
+		"reinstall:pnpm": "npm run uninstall && pnpm i",
+		"reinstall:clean": "npm run uninstall && rm -rf node_modules && rm -rf package-lock.json && npm cache clean --force && npm run install"
+	},
+	"dependencies": {
+		"astro": "^2.6.4",
+		"sass": "^1.63.4"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.50.0",
+		"eslint": "^8.0.1",
+		"eslint-config-standard-with-typescript": "^35.0.0",
+		"eslint-plugin-import": "^2.25.2",
+		"eslint-plugin-n": "^15.0.0",
+		"eslint-plugin-promise": "^6.0.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.2.2",
+		"typescript": "*"
+	}
 }

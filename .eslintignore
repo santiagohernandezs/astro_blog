@@ -1,0 +1,10 @@
+node_modules
+.husky
+.vscode
+.prettierrc
+.lintstagedrc
+.gitignore
+.gitattributes
+.editorconfig
+.eslintrc.js
+.env.d.ts
