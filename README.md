@@ -60,58 +60,58 @@ This file contains a set of ESLint rules that are recommended for most projects.
 ### Errors
 These rules are designed to catch common errors in JavaScript code.
 
-`array-callback-return`: Ensures that the callback function returned by an array method always returns a value.
-`constructor-super`: Requires super() calls in constructors.
-`for-direction`: Ensures that the for loop iterates in the correct direction.
-`getter-return`: Ensures that getters always return a value.
-`no-async-promise-executor`: Prevents using the async keyword with the new keyword.
-`no-await-in-loop`: Prevents using the await keyword inside a for loop.
-`no-class-assign`: Prevents assigning classes to variables.
-`no-compare-neg-zero`: Prevents comparisons with -0.
-`no-cond-assign`: Prevents assigning conditional expressions to variables.
-`no-const-assign`: Prevents assigning constants to variables.
-`no-debugger`: Prevents the debugger statement from being used.
-`no-duplicate-imports`: Prevents duplicate imports.
-`no-empty`: Prevents empty statements.
-`no-empty-function`: Prevents empty functions.
-`no-eval`: Prevents the eval() function from being used.
-`no-extra-semi`: Prevents extra semicolons in the code.
-`no-fallthrough`: Prevents fallthrough in switch statements.
-`no-irregular-whitespace`: Prevents irregular whitespace in the code.
-`no-multiple-empty-lines`: Prevents more than two consecutive empty lines in the code.
-`no-new-wrappers`: Prevents the new keyword from being used with primitive types.
-`no-return-await`: Prevents the return keyword from being used with the await keyword.
-`no-trailing-spaces`: Prevents trailing spaces in the code.
-`no-undef`: Prevents variables from being used before they are defined.
-`no-unused-vars`: Prevents variables from being unused.
+- `array-callback-return`: Ensures that the callback function returned by an array method always returns a value.
+- `constructor-super`: Requires super() calls in constructors.
+- `for-direction`: Ensures that the for loop iterates in the correct direction.
+- `getter-return`: Ensures that getters always return a value.
+- `no-async-promise-executor`: Prevents using the async keyword with the new keyword.
+- `no-await-in-loop`: Prevents using the await keyword inside a for loop.
+- `no-class-assign`: Prevents assigning classes to variables.
+- `no-compare-neg-zero`: Prevents comparisons with -0.
+- `no-cond-assign`: Prevents assigning conditional expressions to variables.
+- `no-const-assign`: Prevents assigning constants to variables.
+- `no-debugger`: Prevents the debugger statement from being used.
+- `no-duplicate-imports`: Prevents duplicate imports.
+- `no-empty`: Prevents empty statements.
+- `no-empty-function`: Prevents empty functions.
+- `no-eval`: Prevents the eval() function from being used.
+- `no-extra-semi`: Prevents extra semicolons in the code.
+- `no-fallthrough`: Prevents fallthrough in switch statements.
+- `no-irregular-whitespace`: Prevents irregular whitespace in the code.
+- `no-multiple-empty-lines`: Prevents more than two consecutive empty lines in the code.
+- `no-new-wrappers`: Prevents the new keyword from being used with primitive types.
+- `no-return-await`: Prevents the return keyword from being used with the await keyword.
+- `no-trailing-spaces`: Prevents trailing spaces in the code.
+- `no-undef`: Prevents variables from being used before they are defined.
+- `no-unused-vars`: Prevents variables from being unused.
 
 ### Variables
 These rules are designed to enforce good variable naming conventions and prevent common errors related to variables.
 
-`camelcase`: Requires variable names to be in camelCase.
-`no-global-assign`: Prevents assigning variables to global scope.
-`no-implicit-globals`: Prevents using implicit global variables.
-`no-unused-expressions`: Prevents unused expressions.
-`no-unused-labels`: Prevents unused labels.
-`prefer-const`: Prefers using const instead of var for declaring variables.
+- `camelcase`: Requires variable names to be in camelCase.
+- `no-global-assign`: Prevents assigning variables to global scope.
+- `no-implicit-globals`: Prevents using implicit global variables.
+- `no-unused-expressions`: Prevents unused expressions.
+- `no-unused-labels`: Prevents unused labels.
+- `prefer-const`: Prefers using const instead of var for declaring variables.
 
 ### Formatting
 These rules are designed to enforce consistent code formatting.
 
-`indent`: Requires code to be indented by 2 spaces.
-`linebreak-style`: Requires line breaks to be UNIX style (\n).
-`quotes`: Requires single quotes to be used for strings.
-`semi`: Requires semicolons to be used at the end of statements.
-`space-before-function-paren`: Requires a space before the parenthesis in function declarations.
-`space-in-parens`: Requires no spaces inside parentheses.
-`space-infix-ops`: Requires a space around infix operators.
-`space-unary-ops`: Requires a space around unary operators.
+- `indent`: Requires code to be indented by 2 spaces.
+- `linebreak-style`: Requires line breaks to be UNIX style (\n).
+- `quotes`: Requires single quotes to be used for strings.
+- `semi`: Requires semicolons to be used at the end of statements.
+- `space-before-function-paren`: Requires a space before the parenthesis in function declarations.
+- `space-in-parens`: Requires no spaces inside parentheses.
+- `space-infix-ops`: Requires a space around infix operators.
+- `space-unary-ops`: Requires a space around unary operators.
 
 ### Other
 These rules are not strictly errors, but they may be helpful to enforce in some projects.
 
-`no-console`: Disables the console object.
-`no-new`: Disables the new keyword.
-`no-throw-literal`: Disables throwing literal values.
+- `no-console`: Disables the console object.
+- `no-new`: Disables the new keyword.
+-`no-throw-literal`: Disables throwing literal values.
 
 `For more information on ESLint rules, please see the ESLint Rules Reference: https://eslint.org/docs/latest/rules/.
